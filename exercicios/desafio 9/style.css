@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;600&family=Noto+Sans:wght@100;400;700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15; 
+}
+h1 {
+    color: blueviolet;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color:darkorchid;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.voltar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+}
+
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+}
+
+.outros-cursos {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+    height: 10vh;
+    font-size: 20px;
+    
+}
+
